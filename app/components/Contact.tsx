@@ -43,21 +43,22 @@ export default function Contact() {
   </div>
 
 
-  <div className="inp-box">
-    <select
-      name="Budget"
-      required
-      className="inp"
-    >
-      <option disabled selected>
-        Whats your Budget?
-      </option>
-      <option value="Under $3,000">Under $3,000</option>
-      <option value="$3,000 - $7,000">$3,000 - $7,000</option>
-      <option value="$7,000 - $15,000">$7,000 - $15,000</option>
-      <option value="$15,000+">$15,000+</option>
-    </select>
-  </div>
+<div className="inp-box">
+  <select
+    name="Budget"
+    required
+    className="inp"
+    defaultValue=""
+  >
+    <option value="" disabled>
+      Whats your Budget?
+    </option>
+    <option value="Under $3,000">Under $3,000</option>
+    <option value="$3,000 - $7,000">$3,000 - $7,000</option>
+    <option value="$7,000 - $15,000">$7,000 - $15,000</option>
+    <option value="$15,000+">$15,000+</option>
+  </select>
+</div>
 
  
   <div className="inp-box">
